@@ -1,3 +1,4 @@
+/*general/index.html*/
 nav {
 	position: fixed;
 	width: 20%;
@@ -12,7 +13,7 @@ nav ul{
 
 a {
 	text-decoration: none;
-	color: #5f7819;
+	color: #7FFF00;
 	font-size: 400%;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -39,42 +40,6 @@ body {
 	margin: 30px;
 }
 
-
-#about {
-	background: url(images/invertedsample.jpg);
-	background-size: 99% auto;
-} 
-
-#contact {
-	background: url(images/120bw.jpg);
-	background-size: 90% auto;
-}
-
-.left-col{
-	float: left;
-	width: 300px;
-	font-size: 100%;
-}
-
-.right-col{
-	float: right;
-	width: 300px;
-	font-size: 100%;
-	line-height: 150px;
-}
-
-#links {
-	background: url(images/morticia-bg.jpg);
-	background-size: 1000px;
-	background-position: center;
-	font-size: 80%;
-}
-
-#links #content ul li {
-	list-style-type: square;
-
-}
-
 .content {
 	background-color: white;
 	opacity: 0.8;
@@ -93,6 +58,16 @@ body {
 	float: left;
 }
 
+/*about*/
+#about {
+	background: url(images/invertedsample.jpg);
+	background-size: 99% auto;
+} 
+#about nav ul li a {
+	color: #095be7;
+}
+
+
 .favs {
 	display: inline;
 	float: left;
@@ -100,6 +75,71 @@ body {
 	width: 200px;
 	margin: 20px 5%;
 	opacity: 0.7;
+}
+
+/*contact*/
+#contact {
+	background: url(images/120bw.jpg);
+	background-size: 90% auto;
+}
+
+.left-col{
+	float: left;
+	width: 300px;
+	font-size: 100%;
+	padding: 30% 10px;
+}
+
+.right-col{
+	float: right;
+	font-size: 100%;
+	line-height: 150px;
+	padding: 0 10px;
+}
+
+.right-col a img {
+	width: 100px;
+	height: 100px;
+	padding: 30%;
+
+}
+
+#contact nav ul li a {
+	color: #d0470c;
+}
+
+.button {
+	font-size: 1.5em;
+	color: black;
+	font-family: monospace;
+	border: 2px solid orange;
+	border-radius: 3px;
+	background: #d0470c;
+}
+
+/*links*/
+#links {
+	background: url(images/morticia-bg.jpg);
+	background-size: 1000px;
+	background-position: center;
+}
+
+#links a {
+	color: #e3da0b;
+}
+
+#links .content ul {
+	list-style-type: square;
+}
+
+#links .content ul li a {
+	list-style-type: none;
+	font-size: 250%;
+}
+
+/*gallery*/
+#gallery nav ul li a {
+	color: #8c09e7;
 }
 
 .gallery img {
@@ -111,13 +151,9 @@ body {
 	width: 1000px;
 }
 
-table {
-	padding-left: 20px;
-	padding-right: 20px;
+#gallery img {
+	float: left;
 	width: 300px;
-}
-
-table img {
-	width: 100px;
 	height: auto;
+	padding: 5px;
 }
