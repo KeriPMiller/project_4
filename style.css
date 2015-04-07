@@ -1,0 +1,123 @@
+nav {
+	position: fixed;
+	width: 20%;
+	font-family: 'Open Sans', sans-serif;
+	z-index: 9;
+
+}
+nav ul{
+	list-style: none;
+	z-index: 9;
+}
+
+a {
+	text-decoration: none;
+	color: #5f7819;
+	font-size: 400%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#index {
+	background: url(images/jetti-bg.jpg) 30% no-repeat
+;
+	background-size: auto ;
+	background-position: center;
+}
+
+#greeting {
+	width: 600px;
+}
+
+#greeting h1{
+	text-align: center;
+	padding: 0;
+	margin: 30px;
+}
+
+
+#about {
+	background: url(images/invertedsample.jpg);
+	background-size: 99% auto;
+} 
+
+#contact {
+	background: url(images/120bw.jpg);
+	background-size: 90% auto;
+}
+
+.left-col{
+	float: left;
+	width: 300px;
+	font-size: 100%;
+}
+
+.right-col{
+	float: right;
+	width: 300px;
+	font-size: 100%;
+	line-height: 150px;
+}
+
+#links {
+	background: url(images/morticia-bg.jpg);
+	background-size: 1000px;
+	background-position: center;
+	font-size: 80%;
+}
+
+#links #content ul li {
+	list-style-type: square;
+
+}
+
+.content {
+	background-color: white;
+	opacity: 0.8;
+	float: right;
+	width: 70%;
+	top: 0;
+}
+.content h1 {
+	font-size: 400%;
+}
+.content img {
+	width: 300px;
+	height: auto;
+	display: inline;
+	position: relative;
+	float: left;
+}
+
+.favs {
+	display: inline;
+	float: left;
+	background: blue;
+	width: 200px;
+	margin: 20px 5%;
+	opacity: 0.7;
+}
+
+.gallery img {
+	width: 200px;
+	height: auto;
+}
+
+.gallery {
+	width: 1000px;
+}
+
+table {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 300px;
+}
+
+table img {
+	width: 100px;
+	height: auto;
+}
